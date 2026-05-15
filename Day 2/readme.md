@@ -21,7 +21,8 @@ Modified jupyter_lab_config.py with the following parameters to enable remote ac
  * **IP:** Set to 0.0.0.0 to listen on all network interfaces.
  * **Port:** Set to 8888 to match the expected entry point for traffic.
  * **Directory:** Defined /root/notebooks/ as the root workspace.
-* **3. Execution**
+
+**3. Execution**
 Activated the virtual environment and launched the server using the corrected configuration file.
 
 ```bash
