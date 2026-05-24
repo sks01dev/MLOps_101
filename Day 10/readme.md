@@ -77,7 +77,7 @@ This flowchart displays how Git and DVC work hand-in-hand to save, update, and s
 
 ---
 
-### The 80/20 of DVC Commands
+### The major DVC Commands
 
 These four core commands cover 90% of everything you will ever do with DVC in an enterprise MLOps engineering pipeline:
 
