@@ -83,4 +83,4 @@ The diagram below highlights exactly how the lines inside your configuration fil
 ```
 
 * **`[core] remote = s3`**: Tells DVC, *"Whenever the user types `dvc push` or `dvc pull` without extra arguments, automatically use the rules under the 's3' profile label."*
-* **`url` & `endpointurl**`: Directs the network traffic away from default public cloud servers and targets your company's custom internal storage port (`8333`) and folder location (`dvc-storage`).
+* **`url` & `endpointurl`**: Directs the network traffic away from default public cloud servers and targets your company's custom internal storage port (`8333`) and folder location (`dvc-storage`).
