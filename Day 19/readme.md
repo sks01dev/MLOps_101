@@ -1,6 +1,4 @@
-Here is the updated, complete lookup note with the **Problem Statement** and **Terminal Commands** added right back in.
 
----
 
 # Day 18: Time-Travel and Versioning with Git Branches and DVC
 
