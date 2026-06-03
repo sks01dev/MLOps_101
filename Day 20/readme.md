@@ -120,7 +120,3 @@ git tag v1.0
 | **`evaluate`** | Model weights + Split dataset + Evaluation script | Generates validation metrics file reports (`metrics.json`) |
 
 ---
-
-(The tag now correctly locks onto the final completed state, tracking code and data parameters in perfect alignment)
-
-```
