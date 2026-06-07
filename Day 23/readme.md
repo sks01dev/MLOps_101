@@ -77,6 +77,7 @@ The tree below displays exactly how your backend ledger database maps and organi
 
 ### MLFlow UI
 
+<img width="1365" height="649" alt="image" src="https://github.com/user-attachments/assets/a507c249-d8a4-4152-9f71-86e9078b9a92" />
 
 
 ### Quick Check Summary for Instant Recall
