@@ -1,9 +1,9 @@
-# Day 23: Triaging and Tagging Models in the MLflow UI
+# Day 24: Triaging and Tagging Models in the MLflow UI
 
 ### The Big Idea: Querying and Triaging Training Runs
 
 As you scale up machine learning experiments, pipelines generate dozens of runs simultaneously. Checking each execution manually to identify the best candidates becomes impractical.
-
+ 
 The **MLflow Evaluation Dashboard** provides powerful SQL-like filtering expressions (e.g., `metrics.f1_score > 0.85`) to search through your metadata repository instantly. Once filtered, you can flag models right from the UI using custom tracking metadata tags. This allows deployment teams to immediately distinguish production-ready candidates from stale or underperforming iterations.
 
 ---
