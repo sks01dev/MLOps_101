@@ -1,6 +1,6 @@
-# Day 27: Fast Lookup Notes (Batch Inference serving)
+# Day 27: Model Loading from MLFlow and Batch Serving
 
-### The Quick Intuition
+### The Quick Idea
 
 * **Why use Registry Aliases?** If your production code points to a hardcoded file path or version number (e.g., `version/1`), your application breaks the moment a teammate updates the model weights.
 * **The Solution:** Point your production inference script to a permanent alias tag shortcut (**`models:/fraud-detector@champion`**). MLflow dynamically fetches the active winning weights from the vault, allowing you to deploy model updates instantly without modifying a single line of serving code.
