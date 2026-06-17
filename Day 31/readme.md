@@ -3,7 +3,7 @@
 ### The Quick Intuition
 
 * **Why Config-Driven Training?** Hardcoding file paths, dataset schema columns, or model hyperparameters directly inside application source code makes machine learning pipelines brittle and error-prone.
-* **The Solution:** Decouple structural runtime instructions into a separate **YAML Configuration File (`train_config.yaml`)**. This allows platform engineers and data scientists to modify architectures, update input resources, and alter optimization layers seamlessly without rewriting an underlying line of executable Python code.
+* **The Solution:** Decouple structural runtime instructions into a separate **YAML Configuration File (`train_config.yaml`)**. This allows platform engineers and data scientists to modify architectures, update input resources, and alter model parameters seamlessly without checking in on the main `train.py` script.
 
 ---
 
