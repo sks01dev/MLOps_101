@@ -65,15 +65,10 @@ python3 /root/code/fraud-detection/src/models/tune.py
 
 Open your browser and navigate to the MLflow UI dashboard. Select all 20 successfully tracked tuning trials inside the `hyperopt-tuning` experiment workspace and switch to the **Parallel Coordinates** or **Scatter Plot** view to trace the parameter zone clusters.
 
-```
-
 <img width="1366" height="649" alt="image" src="https://github.com/user-attachments/assets/75d2015f-e6be-4a80-83c7-93fe50a228a9" />
 
-```
-
-```
 <img width="1366" height="646" alt="image" src="https://github.com/user-attachments/assets/25fe9e3a-1470-409b-9aa5-6938d54fbe81" />
-```
+
 ### Conclusion
 
 > **Optuna navigates the parameter search space; MLflow logs the search journey.** Always make sure your study initialization uses `direction="maximize"` if your metric target is an evaluation criteria like $F_1$ score or Accuracy, and nest your parameter suggestions directly inside an open `mlflow.start_run()` block to stream trial variants cleanly to the dashboard.
